@@ -14,7 +14,7 @@ public class SpringBootController {
     @RequestMapping("/hello")
     public @ResponseBody
     Object hello() {
-        System.out.println("yyyyy");
         return "Hello World";
     }
+
 }
